@@ -5,6 +5,6 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "install": "./.cursor/install.sh",
-  "start": "./.cursor/start.sh"
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh"
 }
